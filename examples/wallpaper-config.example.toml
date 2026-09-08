@@ -1,0 +1,12 @@
+# Omarchy Wallpaper Player - Optional Configuration
+# Path: ~/.config/omarchy-wallpaper-player/config.toml
+
+[player]
+output = "*"
+layer = "background"
+mpv_options = "--loop-playlist=inf --no-audio --hwdec=auto-safe"
+
+[themes]
+# Map theme slugs to user-supplied video paths:
+# "solo-leveling-monarch" = "/path/to/my-monarch-wallpaper.mp4"
+# "matrix-code" = "/path/to/my-matrix-digital.mp4"

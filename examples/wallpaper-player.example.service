@@ -1,0 +1,13 @@
+[Unit]
+Description=Optional Omarchy Video Wallpaper Player
+Documentation=https://github.com/YOUR-USERNAME/omarchy-wallpaper-guide
+After=graphical-session.target
+
+[Service]
+Type=simple
+ExecStart=%h/.local/bin/omarchy-wallpaper-player
+Restart=on-failure
+RestartSec=3
+
+[Install]
+WantedBy=default.target
